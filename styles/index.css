@@ -1,0 +1,42 @@
+body{
+	background: mediumpurple;
+}
+
+#logo{
+	position:absolute;
+	top:-8vh;
+	right:10vw;
+    height: 30vh;
+}
+
+div{
+	background-color: rebeccapurple;
+	color: white;
+	border: solid black;
+	height: 10vh;
+	width: 91vw;
+}
+
+#topBarDiv{
+    background-color: black;
+}
+
+.topBarButton{
+    margin-left: 7px;
+	font-size: 1em;
+	font-style: italic;
+	font-weight: bold;
+	color: purple;
+	background-color: black;
+	width: inherit;
+	height: 10vh;
+	width: 17vw;
+	border-radius: 1em;
+}
+
+.topBarButton:hover{
+	cursor: pointer;
+	color: black;
+	background-color: rebeccapurple;
+}
+
