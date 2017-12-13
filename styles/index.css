@@ -1,20 +1,23 @@
 body{
-	background: cornsilk;
+	background: white;
 }
 
-#logo{
-	position:absolute;
-	top:-8vh;
-	right:10vw;
-    height: 30vh;
+#vk_logo{
+	vertical-align: middle;
+	margin-left: 3em;
+	height: 3em;
+	width:auto;
 }
 
 div{
-	background-color: rebeccapurple;
-	color: white;
+	background-color: white;
+	color: black;
 	border: solid black;
-	height: 10vh;
-	width: 91vw;
+}
+
+#otsikko_div{
+	font-size: 2em;
+	font-weight: bold;
 }
 
 #topBarDiv{
