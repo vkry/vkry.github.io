@@ -3,7 +3,9 @@ body{
 }
 
 p{
-	font-size: 1.2em;
+	font-size: 0.8em;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 #vk_logo{
@@ -20,7 +22,8 @@ div{
 }
 
 #otsikko_div{
-	font-size: 2em;
+	font-family: Josefin Sans;
+	font-size: 3em;
 	font-weight: bold;
 }
 
@@ -43,6 +46,7 @@ div{
 	background-color: black;
 
 	border-radius: 1em;
+	border: white solid 2px;
 }
 
 .topBarButton:hover{
@@ -59,17 +63,23 @@ div{
 	border-left: double #3d1935;
 }
 
+#uutiset{
+	font-family: Josefin Sans;
+	font-size: 1.2em;
+}
+
 #sponsori_ikkuna{
 	display: inline-block;
 	float: right;
 	width: 27vw;
 	border: solid #3d1935 1px;
-}
-
-#voittamassamukana{
 	text-align: center;
 }
+
+
  .logo{
-	 width: 24vw;
-	 height:auto;
+	 display:block;
+	 margin:auto;
+	 width: auto;
+	 height:4em;
  }
