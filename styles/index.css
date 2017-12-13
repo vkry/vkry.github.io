@@ -30,7 +30,8 @@ div{
 }
 
 #contact_div{
-	background-color: #efc4ff;/*#b794af;*/
+	color: white;
+	background-color: #6B0090;/*#b794af;*/
 	font-size: 1.2em;
 	font-weight: 400;
 }
@@ -45,16 +46,16 @@ div{
 	font-style: italic;
 	font-weight: bold;
 	color: #6B0090;
-	background-color: black;
+	background-color: lightgray;
 
 	border-radius: 1em;
-	border: white solid 2px;
+	border: gray solid 2px;
 }
 
 .topBarButton:hover{
 	cursor: pointer;
 	color: black;
-	background-color: rebeccapurple;
+	background-color: #6B0090;
 }
 
 #uutisikkuna{
