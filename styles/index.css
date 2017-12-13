@@ -1,5 +1,5 @@
 body{
-	background: white;
+	background: cornsilk;
 }
 
 p{
@@ -22,6 +22,10 @@ div{
 #otsikko_div{
 	font-size: 2em;
 	font-weight: bold;
+}
+
+#contact_div{
+	background-color: #b794af;
 }
 
 #topBarDiv{
@@ -50,13 +54,14 @@ div{
 	float:left;
 	width: 65vw;
 	border: none;
+	border-left: double #3d1935;
 }
 
 #sponsori_ikkuna{
 	display: inline-block;
 	float: right;
 	width: 27vw;
-	border: solid purple 1px;
+	border: solid #3d1935 1px;
 }
 
 #voittamassamukana{
