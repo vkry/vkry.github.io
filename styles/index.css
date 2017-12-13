@@ -2,6 +2,10 @@ body{
 	background: white;
 }
 
+p{
+	font-size: 1.2em;
+}
+
 #vk_logo{
 	vertical-align: middle;
 	margin-left: 3em;
@@ -29,7 +33,7 @@ div{
 	font-size: 1.5em;
 	font-style: italic;
 	font-weight: bold;
-	color: purple;
+	color: #e260ff;
 	background-color: black;
 
 	border-radius: 1em;
@@ -42,7 +46,23 @@ div{
 }
 
 #uutisikkuna{
-	width: 70vw;
-	border: solid black;
+	display: inline-block;
+	float:left;
+	width: 65vw;
+	border: none;
 }
 
+#sponsori_ikkuna{
+	display: inline-block;
+	float: right;
+	width: 27vw;
+	border: solid purple 1px;
+}
+
+#voittamassamukana{
+	text-align: center;
+}
+ .logo{
+	 width: 24vw;
+	 height:auto;
+ }
