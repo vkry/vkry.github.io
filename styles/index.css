@@ -9,8 +9,9 @@ p{
 }
 
 #vk_logo{
+	display:block;
+	margin:auto;
 	vertical-align: middle;
-	margin-left: 2em;
 	height: 3em;
 	width:auto;
 }
@@ -22,6 +23,7 @@ div{
 }
 
 #otsikko_div{
+	text-align: center;
 	font-family: Josefin Sans;
 	font-size: 3em;
 	font-weight: bold;
