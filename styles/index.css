@@ -46,15 +46,15 @@ div{
 	font-style: italic;
 	font-weight: bold;
 	color: #6B0090;
-	background-color: lightgray;
+	background-color: white;
 
 	border-radius: 1em;
-	border: gray solid 2px;
+	border: gray solid 1px;
 }
 
 .topBarButton:hover{
 	cursor: pointer;
-	color: black;
+	color: white;
 	background-color: #6B0090;
 }
 
@@ -78,6 +78,9 @@ div{
 	border: solid #3d1935 1px;
 	text-align: center;
 }
+#voittamassa_mukana{
+	margin-bottom: 1em;
+}
 
 
  .logo{
@@ -85,4 +88,7 @@ div{
 	 margin:auto;
 	 width: auto;
 	 height:4em;
+ }
+ .logo_text{
+	 font-size: 1.3em;
  }
