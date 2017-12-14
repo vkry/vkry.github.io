@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9df82816-5533-424b-bc2d-16682cc63216" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/loscaba.html" afterPath="$PROJECT_DIR$/layouts/loscaba.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/racketlon.html" afterPath="$PROJECT_DIR$/layouts/racketlon.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/uutiset.html" afterPath="$PROJECT_DIR$/layouts/uutiset.html" />
@@ -98,13 +97,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loscaba.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="loscaba.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/layouts/loscaba.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
-              <caret line="3" column="47" lean-forward="false" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+              <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
               <folding>
-                <element signature="e#157#163#0" expanded="true" />
+                <element signature="e#160#166#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,7 +113,7 @@
         <entry file="file://$PROJECT_DIR$/layouts/racketlon.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
-              <caret line="3" column="47" lean-forward="false" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+              <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -124,17 +123,17 @@
         <entry file="file://$PROJECT_DIR$/layouts/uutiset.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
-              <caret line="3" column="47" lean-forward="false" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+              <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="yhteydenotto.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="yhteydenotto.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layouts/yhteydenotto.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
-              <caret line="3" column="47" lean-forward="false" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+              <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -168,10 +167,10 @@
       <list>
         <option value="$PROJECT_DIR$/styles/index.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/layouts/loscaba.html" />
-        <option value="$PROJECT_DIR$/layouts/racketlon.html" />
-        <option value="$PROJECT_DIR$/layouts/uutiset.html" />
         <option value="$PROJECT_DIR$/layouts/yhteydenotto.html" />
+        <option value="$PROJECT_DIR$/layouts/uutiset.html" />
+        <option value="$PROJECT_DIR$/layouts/racketlon.html" />
+        <option value="$PROJECT_DIR$/layouts/loscaba.html" />
       </list>
     </option>
   </component>
@@ -264,12 +263,12 @@
       <workItem from="1513163644452" duration="6126000" />
       <workItem from="1513172591581" duration="89000" />
       <workItem from="1513180698187" duration="4921000" />
-      <workItem from="1513283717115" duration="2211000" />
+      <workItem from="1513283717115" duration="2282000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16241000" />
+    <option name="totallyTimeSpent" value="16312000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="69" y="24" width="1299" height="780" extended-state="6" />
@@ -742,20 +741,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/loscaba.html">
+    <entry file="file://$PROJECT_DIR$/layouts/yhteydenotto.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
-          <caret line="3" column="47" lean-forward="false" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
-          <folding>
-            <element signature="e#157#163#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/racketlon.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="47" lean-forward="false" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+          <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -763,16 +752,26 @@
     <entry file="file://$PROJECT_DIR$/layouts/uutiset.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
-          <caret line="3" column="47" lean-forward="false" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+          <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/yhteydenotto.html">
+    <entry file="file://$PROJECT_DIR$/layouts/racketlon.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
-          <caret line="3" column="47" lean-forward="false" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+          <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/loscaba.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <folding>
+            <element signature="e#160#166#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
