@@ -83,6 +83,11 @@ div{
     font-size: 1.2em;
 }
 
+#loscaba_kuva{
+    width: 12em;
+    float: left;
+}
+
 #sponsori_ikkuna{
     display: inline-block;
     float: right;
