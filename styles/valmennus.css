@@ -1,5 +1,5 @@
 body{
-    background-color: cornsilk;
+    background: cornsilk;
 }
 
 p{
@@ -65,7 +65,7 @@ div{
     color: white;
     background-color: #6B0090;
 }
-#jasenyysButton{
+#valmennusButton{
     color: white;
     background-color: #6B0090;
 }
@@ -92,4 +92,3 @@ div{
 .logo_text{
     font-size: 1.3em;
 }
-
