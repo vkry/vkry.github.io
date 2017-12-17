@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9df82816-5533-424b-bc2d-16682cc63216" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/liity_jaseneksi.html" afterPath="$PROJECT_DIR$/layouts/liity_jaseneksi.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/racketlon.html" afterPath="$PROJECT_DIR$/layouts/racketlon.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/tapahtumat.html" afterPath="$PROJECT_DIR$/layouts/tapahtumat.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/uutiset.html" afterPath="$PROJECT_DIR$/layouts/uutiset.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/yhteydenotto.html" afterPath="$PROJECT_DIR$/layouts/yhteydenotto.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/liity_jaseneksi.css" afterPath="$PROJECT_DIR$/styles/liity_jaseneksi.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/tapahtumat.css" afterPath="$PROJECT_DIR$/styles/tapahtumat.css" />
-    </list>
+    <list default="true" id="9df82816-5533-424b-bc2d-16682cc63216" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -65,7 +57,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="liity_jaseneksi.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="liity_jaseneksi.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/liity_jaseneksi.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="887">
@@ -115,10 +107,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="yhteistyokumppanit.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="yhteistyokumppanit.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles/yhteistyokumppanit.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
+            <state relative-caret-position="1206">
               <caret line="67" column="19" lean-forward="false" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
               <folding />
             </state>
@@ -258,12 +250,12 @@
       <workItem from="1513180698187" duration="4921000" />
       <workItem from="1513283717115" duration="2282000" />
       <workItem from="1513454628426" duration="2960000" />
-      <workItem from="1513515790015" duration="3601000" />
+      <workItem from="1513515790015" duration="3797000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30121000" />
+    <option name="totallyTimeSpent" value="30317000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="69" y="24" width="1857" height="1092" extended-state="6" />
@@ -940,14 +932,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/yhteistyokumppanit.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="67" column="19" lean-forward="false" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/layouts/valmennus.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -1039,6 +1023,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="887">
           <caret line="93" column="1" lean-forward="false" selection-start-line="93" selection-start-column="1" selection-end-line="93" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/yhteistyokumppanit.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1206">
+          <caret line="67" column="19" lean-forward="false" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
           <folding />
         </state>
       </provider>
