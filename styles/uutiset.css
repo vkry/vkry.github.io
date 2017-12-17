@@ -76,6 +76,7 @@ div{
     width: 65vw;
     border: none;
     border-left: double #3d1935;
+    background-color: cornsilk;
 }
 
 #uutiset{
@@ -91,9 +92,10 @@ div{
 #sponsori_ikkuna{
     display: inline-block;
     float: right;
-    width: 27vw;
+    width: 24vw;
     border: solid #3d1935 1px;
     text-align: center;
+    background-color: white;
 }
 #voittamassa_mukana{
     margin-bottom: 1em;
