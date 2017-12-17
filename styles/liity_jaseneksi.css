@@ -70,6 +70,15 @@ div{
     background-color: #6B0090;
 }
 
+#jasenyysLomake{
+    display: inline-block;
+    float:left;
+    width: 65vw;
+    border: none;
+    border-left: double #3d1935;
+    background-color: cornsilk;
+}
+
 #sponsori_ikkuna{
     display: inline-block;
     float: right;
