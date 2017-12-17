@@ -70,25 +70,22 @@ div{
     background-color: #6B0090;
 }
 
-#sponsori_ikkuna{
-    display: inline-block;
-    float: right;
-    width: 24vw;
-    border: solid #3d1935 1px;
-    text-align: center;
-    background-color: white;
+#yhteistyokumppanitDiv{
+    border: solid 1px black;
 }
-#voittamassa_mukana{
-    margin-bottom: 1em;
-}
-
 
 .logo{
     display:block;
     margin:auto;
     width: auto;
     height:4em;
+    margin-bottom: 1em;
 }
-.logo_text{
-    font-size: 1.3em;
+
+#yhteistyokumppanitDiv{
+    border: solid 1px black;
+}
+.kumppani{
+    font-size: 1.5em;
+    font-weight: 300;
 }
