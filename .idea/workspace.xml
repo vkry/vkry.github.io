@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9df82816-5533-424b-bc2d-16682cc63216" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/uutiset.html" afterPath="$PROJECT_DIR$/layouts/uutiset.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,13 +29,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uutiset.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="uutiset.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/layouts/uutiset.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2034">
-              <caret line="113" column="7" lean-forward="false" selection-start-line="113" selection-start-column="7" selection-end-line="113" selection-end-column="7" />
+            <state relative-caret-position="417">
+              <caret line="87" column="193" lean-forward="false" selection-start-line="87" selection-start-column="193" selection-end-line="87" selection-end-column="193" />
               <folding>
-                <marker date="1514400584111" expanded="true" signature="8244:8252" ph="..." />
+                <marker date="1514587149836" expanded="true" signature="8276:8284" ph="..." />
               </folding>
             </state>
           </provider>
@@ -43,7 +44,7 @@
       <file leaf-file-name="liity_jaseneksi.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layouts/liity_jaseneksi.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
+            <state relative-caret-position="720">
               <caret line="40" column="55" lean-forward="true" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
               <folding>
                 <element signature="e#1711#1717#0" expanded="true" />
@@ -57,7 +58,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tapahtumat.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tapahtumat.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layouts/tapahtumat.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -168,7 +169,6 @@
         <option value="$PROJECT_DIR$/styles/vkry.css" />
         <option value="$PROJECT_DIR$/styles/uutiset.css" />
         <option value="$PROJECT_DIR$/styles/index.css" />
-        <option value="$PROJECT_DIR$/layouts/uutiset.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/layouts/yhteistyokumppanit.html" />
         <option value="$PROJECT_DIR$/styles/yhteistyokumppanit.css" />
@@ -177,6 +177,7 @@
         <option value="$PROJECT_DIR$/layouts/racketlon.html" />
         <option value="$PROJECT_DIR$/layouts/liity_jaseneksi.html" />
         <option value="$PROJECT_DIR$/layouts/tapahtumat.html" />
+        <option value="$PROJECT_DIR$/layouts/uutiset.html" />
       </list>
     </option>
   </component>
@@ -239,7 +240,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/milleva.github.io" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RunDashboard">
@@ -279,14 +280,15 @@
       <workItem from="1514454497927" duration="3038000" />
       <workItem from="1514478509274" duration="2911000" />
       <workItem from="1514560031871" duration="2429000" />
+      <workItem from="1514586997748" duration="157000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51486000" />
+    <option name="totallyTimeSpent" value="51643000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="156" y="-4" width="1299" height="780" extended-state="6" />
+    <frame x="156" y="-4" width="1297" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24826522" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -411,7 +413,7 @@
         <state relative-caret-position="54">
           <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
           <folding>
-            <marker date="1514400584111" expanded="true" signature="8244:8252" ph="..." />
+            <marker date="1514587149836" expanded="true" signature="8276:8284" ph="..." />
           </folding>
         </state>
       </provider>
@@ -543,7 +545,7 @@
         <state relative-caret-position="360">
           <caret line="20" column="50" lean-forward="false" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
           <folding>
-            <marker date="1514400584111" expanded="true" signature="8244:8252" ph="..." />
+            <marker date="1514587149836" expanded="true" signature="8276:8284" ph="..." />
           </folding>
         </state>
       </provider>
@@ -723,16 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/uutiset.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2034">
-          <caret line="113" column="7" lean-forward="false" selection-start-line="113" selection-start-column="7" selection-end-line="113" selection-end-column="7" />
-          <folding>
-            <marker date="1514400584111" expanded="true" signature="8244:8252" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -791,7 +783,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/layouts/liity_jaseneksi.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
+        <state relative-caret-position="720">
           <caret line="40" column="55" lean-forward="true" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
           <folding>
             <element signature="e#1711#1717#0" expanded="true" />
@@ -814,6 +806,16 @@
             <element signature="e#3137#3143#0" expanded="true" />
             <element signature="e#3177#3183#0" expanded="true" />
             <element signature="e#3866#3872#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/uutiset.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="87" column="193" lean-forward="false" selection-start-line="87" selection-start-column="193" selection-end-line="87" selection-end-column="193" />
+          <folding>
+            <marker date="1514587149836" expanded="true" signature="8276:8284" ph="..." />
           </folding>
         </state>
       </provider>
