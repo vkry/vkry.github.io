@@ -33,15 +33,16 @@
 
 <div id="jasenyysLomake">
     <h2>J&Auml;SENHAKEMUS</h2>
+    <p>Pakolliset kent&auml;t merkitty (*)</p>
     <form name="mail" method="POST"
           action="https://voittajien-email-orja.herokuapp.com/jasenhakemus">
-        <input type="checkbox"/> Olen lukenut ja hyv&auml;ksyn seuran s&auml;&auml;nn&ouml;t<br><br>
-        <input type="text" placeholder="Etunimi" name="name"/><br>
-        <input type="text" placeholder="Sukunimi" name="lastname"/><br>
+        <input type="checkbox" required/> Olen lukenut ja hyv&auml;ksyn seuran s&auml;&auml;nn&ouml;t *<br><br>
+        <input type="text" placeholder="Etunimi" name="name"/> *<br>
+        <input type="text" placeholder="Sukunimi" name="lastname"/> *<br>
         <input type="text" placeholder="Osoite" name="address"/><br>
-        <input type="text" placeholder="Syntym&auml;aika" name="birthdate"/><br>
-        <input type="text" placeholder="S&auml;hk&ouml;posti" name="email"/><br>
-        <input type="text" placeholder="Puhelin" name="phone"/><br>
+        <input type="text" placeholder="Syntym&auml;aika" name="birthdate"/> *<br>
+        <input type="text" placeholder="S&auml;hk&ouml;posti" name="email"/> *<br>
+        <input type="text" placeholder="Puhelin" name="phone"/> *<br>
         <input type="text" placeholder="Vanhemman puh." name="parentphone"/><br><br>
         <textarea id='projectDetails' rows="10" cols="40" placeholder="Muuta" name="details"></textarea><br>
         <input id="formSendButton" type="submit" name="submit"
