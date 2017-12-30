@@ -23,7 +23,8 @@
     <button class="topBarButton" onclick="window.location.href='uutiset.html'">UUTISET</button>
     <button class="topBarButton" onclick="window.location.href='yhteydenotto.html'">YHTEYDENOTTO</button>
     <button class="topBarButton" id="tapahtumatButton">KILPAILUT / TAPAHTUMAT</button>
-    <button class="topBarButton" onclick="window.location.href='yhteistyokumppanit.html'">YHTEISTY&Ouml;KUMPPANIT</button>
+    <button class="topBarButton" onclick="window.location.href='yhteistyokumppanit.html'">YHTEISTY&Ouml;KUMPPANIT
+    </button>
     <button class="topBarButton" onclick="window.location.href='racketlon.html'">RACKETLON</button>
     <button class="topBarButton">YHTEYSTIEDOT</button>
     <button class="topBarButton" onclick="window.location.href='liity_jaseneksi.html'">LIITY J&Auml;SENEKSI</button>
@@ -47,21 +48,39 @@
 </div>
 
 <div class="ilmoittautumisLomake">
-    <h1>VK:n Racketlon turnaus 19.& 20. Tammikuuta</h1>
-    <h2>Ilmoittautumiset 15.1.2018 menness&auml;.</h2>
+    <h1>Mailapeliturnaus 19.-20.1.2018 (perjantai-ilta ja lauantai)</h1>
+    <h3>Mailapeliturnaus pelataan Racketlon-s&auml;&auml;nn&ouml;ill&auml;.
+        Lajit: pingis, sulkapallo, tennis.<br><br>
+
+        Ilmoittautuminen 15.1.2018 menness&auml;<br>
+        Osallitumismaksu 40 euroa sis&auml;lt&auml;&auml; juomat ja purtavaa.<br><br>
+
+        Kaaviot: www.voittamisenkulttuuri.com<br>
+        Hannu puh. 050 328 9319<br>
+
+        Kilpailijoita ei vakuuteta j&auml;rjest&auml;j&auml;n toimesta. Osallistuminen ei edellyt&auml; my&ouml;sk&auml;&auml;n
+        seuraa tai lisenssi&auml;.
+    </h3>
     <form name="mail" method="POST"
           action="https://voittajien-email-orja.herokuapp.com/splitlonIlmo"><br>
-        <p1>Kaikki kent&auml;t ovat pakollisia (paitsi toki lis&auml;tiedot)</p1><br>
-        <input type="text" placeholder="Etunimi" name="firstname"/><br>
-        <input type="text" placeholder="Sukunimi" name="lastname"/><br>
+        <p1>Ilmoittautumislomake:</p1>
+        <br>
+        <p1>Pakolliset kent&auml;t merkitty (*)</p1>
+        <br><br>
+        <input type="text" placeholder="Etunimi" name="firstname" required/> *<br>
+        <input type="text" placeholder="Sukunimi" name="lastname" required/> *<br>
         <input type="text" placeholder="Osoite" name="address"/><br>
-        <input type="text" placeholder="Syntym&auml;aika" name="birthday"/><br>
-        <input type="text" placeholder="S&auml;hk&ouml;posti" name="email"/><br>
-        <input type="text" placeholder="Puhelin" name="phone"/><br><br>
-        <textarea id='details' rows="10" cols="40" placeholder="Lis&auml;tietoa" name="details"></textarea><br>
+        <input type="text" placeholder="Syntym&auml;aika" name="birthday" required/> *<br>
+        <input type="text" placeholder="S&auml;hk&ouml;posti" name="email" required/> *<br>
+        <input type="text" placeholder="Puhelin" name="phone" required/> *<br><br>
+        <textarea id='details' rows="10" cols="40"
+                  placeholder="Kuvaile lyhyesti pelisi tasoa. Esim. Vasta-aloittanut, Harrastelija..."
+                  name="levelOfPlay" required></textarea> *<br>
         <input id="formSendButton" type="submit" name="submit"
                value="Ilmoittaudu"/>
         &nbsp;
     </form>
+    <br>
+    <img src="../images/splitlon_mainos.jpg">
 </div>
 </body>
