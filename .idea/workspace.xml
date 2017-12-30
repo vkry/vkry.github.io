@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9df82816-5533-424b-bc2d-16682cc63216" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/liity_jaseneksi.html" afterPath="$PROJECT_DIR$/layouts/liity_jaseneksi.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -86,8 +85,8 @@
       <file leaf-file-name="liity_jaseneksi.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/layouts/liity_jaseneksi.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="46" column="32" lean-forward="true" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+            <state relative-caret-position="270">
+              <caret line="39" column="60" lean-forward="false" selection-start-line="39" selection-start-column="60" selection-end-line="39" selection-end-column="60" />
               <folding>
                 <element signature="e#1711#1717#0" expanded="true" />
                 <element signature="e#1755#1761#0" expanded="true" />
@@ -95,7 +94,7 @@
                 <element signature="e#1973#1979#0" expanded="true" />
                 <element signature="e#1979#1985#0" expanded="true" />
                 <element signature="e#1987#1993#0" expanded="true" />
-                <element signature="e#2749#2755#0" expanded="true" />
+                <element signature="e#2754#2760#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -350,12 +349,12 @@
       <workItem from="1514628810944" duration="785000" />
       <workItem from="1514640418525" duration="5553000" />
       <workItem from="1514657036152" duration="241000" />
-      <workItem from="1514668242963" duration="386000" />
+      <workItem from="1514668242963" duration="567000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59012000" />
+    <option name="totallyTimeSpent" value="59193000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="71" y="24" width="1299" height="780" extended-state="6" />
@@ -453,7 +452,7 @@
             <element signature="e#1973#1979#0" expanded="true" />
             <element signature="e#1979#1985#0" expanded="true" />
             <element signature="e#1987#1993#0" expanded="true" />
-            <element signature="e#2749#2755#0" expanded="true" />
+            <element signature="e#2754#2760#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1138,8 +1137,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/layouts/liity_jaseneksi.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="46" column="32" lean-forward="true" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+        <state relative-caret-position="270">
+          <caret line="39" column="60" lean-forward="false" selection-start-line="39" selection-start-column="60" selection-end-line="39" selection-end-column="60" />
           <folding>
             <element signature="e#1711#1717#0" expanded="true" />
             <element signature="e#1755#1761#0" expanded="true" />
@@ -1147,7 +1146,7 @@
             <element signature="e#1973#1979#0" expanded="true" />
             <element signature="e#1979#1985#0" expanded="true" />
             <element signature="e#1987#1993#0" expanded="true" />
-            <element signature="e#2749#2755#0" expanded="true" />
+            <element signature="e#2754#2760#0" expanded="true" />
           </folding>
         </state>
       </provider>
