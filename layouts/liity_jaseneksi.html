@@ -36,7 +36,9 @@
     <p>Pakolliset kent&auml;t merkitty (*)</p>
     <form name="mail" method="POST"
           action="https://voittajien-email-orja.herokuapp.com/jasenhakemus">
-        <input type="checkbox" required/> Olen lukenut ja hyv&auml;ksyn seuran s&auml;&auml;nn&ouml;t *<br><br>
+        <input type="checkbox" required/> Olen lukenut ja hyv&auml;ksyn seuran
+        <button onclick="openModal()" id="rules_btn">s&auml;&auml;nn&ouml;t</button>
+        *<br><br>
         <input type="text" placeholder="Etunimi" name="firstname" required/> *<br>
         <input type="text" placeholder="Sukunimi" name="lastname" required/> *<br>
         <input type="text" placeholder="Osoite" name="address"/><br>
@@ -50,6 +52,126 @@
         &nbsp;
     </form>
 </div>
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <div class="modal-header">
+            <button class="close">&times;</button>
+            <h1 id="rules_header">Yhdistyksen s&auml;&auml;nn&ouml;t</h1>
+        </div>
+        <div class="modal-body">
+            <p id="rules">
+                Nimi: Voittamisen Kulttuuri ry<br>
+                Kotipaikka: Helsnki<br>
+                Osoite: Kulosaarentie 2<br>
+                00570 Helsinki<br>
+                Rekisterinumero: 214.226<br>
+                Merkitty rekisteriin: 26.01.2015<br>
+                J&auml;ljennys annettu: 26.01.2015<br><br>
+
+                1. Yhdistyksen nimi ja kotipaikka<br>
+                Yhdistyksen nimi on Voittamisen Kulttuuri ry ja sen koitpaikka on Helsinki.<br><br>
+
+                2. Tarkoitus ja toiminnan laatu<br>
+                Yhdistyksen tarkoituksena on edist&auml;&auml; urheilullista kehityst&auml; ja kilpailutoimintaa.
+                Tarkoituksena toteuttamiseksi yhdistys j&auml;rjest&auml;&auml; valmennusta ja kansallisia kilpailuja.
+                Toimintansa tukemiseksi yhdistys perii vuotuista j&auml;senmaksua ja liittymismaksua sek&auml; j&auml;rjest&auml;&auml;
+                arpajaisia, myyj&auml;isi&auml; ja harjoittaa kahvilatoimintaa j&auml;rjest&auml;miens&auml; kilpailujen yhteydess&auml;.<br><br>
+
+                3. J&auml;senet<br>
+                Yhdistykseen j&auml;seneksi voi liitty&auml; jokainen, joka hyv&auml;ksyy yhdistyksen tarkoituksen ja s&auml;&auml;nn&ouml;t.
+                J&auml;senet hyv&auml;ksyy hakemuksesta yhdistyksen hallitus.<br><br>
+
+                4. J&auml;senen eroaminen ja erottaminen<br>
+                J&auml;senell&auml; on oikeus erota yhdistyksest&auml; ilmoittamalla siit&auml; kirjallisesti hallitukselle tai sen
+                puheenjohtajalle, taikka ilmoittamalla erosta
+                yhdistyksen kokouksessa merkitt&auml;v&auml;ksi p&ouml;yt&auml;kirjaan. Hallitus voi erottaa j&auml;senen yhdistyksest&auml;, jos
+                j&auml;sen on j&auml;tt&auml;nyt er&auml;&auml;ntyneen j&auml;senmaksunsa
+                maksamatta tai muuten j&auml;tt&auml;nyt t&auml;ytt&auml;m&auml;tt&auml; ne velvoitukset, joihin h&auml;n on yhdistykseen liittym&auml;ll&auml;
+                sitoutunut tai on menettelyll&auml;&auml;n yhdistyksess&auml;
+                tai sen ulkopuolella huomattavasti vahingoittanut yhdistyst&auml; tai ei en&auml;&auml; t&auml;yt&auml; laissa taikka yhdistyksen
+                s&auml;&auml;nn&ouml;iss&auml; mainittuja j&auml;senyyden ehtoja.<br><br>
+
+                5. Liittymis- ja j&auml;senmaksu<br>
+                J&auml;senilt&auml; pperitt&auml;v&auml;n liittymismaksun ja vuotuisien j&auml;senmaksun suuruudesta p&auml;&auml;tt&auml;&auml; vuosikokous.<br><br>
+
+                6. Hallitus<br>
+                Yhdistyksen asioita hoitaa hallitus, johon kuuluu vuosikokouksessa valitut puheenjohtaja ja 2 muuta
+                varsinaista j&auml;sent&auml; sek&auml; 2 varaj&auml;sent&auml;.
+                Hallituksen toimikausi on vuosikokousten v&auml;linen aika. Hallitus valitsee keskuudestaan
+                varapuheenjohtajan sek&auml; ottaa keskuudestaan tai
+                ulkopuoleltaan sihteerin, rahastonhoitajan ja muut tarvittavat toimihenkil&ouml;t. Hallitus kokoontuu
+                puheenjohtajan tai h&auml;nen estyneen&auml; ollessaan
+                varapuheenjohtajan kutsusta, kun he katsovat siihen olevan aihetta tai kun v&auml;hint&auml;&auml;n puolet hallituksen
+                j&auml;senist&auml; sit&auml; vaatii.
+                Hallitus on p&auml;&auml;t&ouml;svaltainen, kun v&auml;hint&auml;&auml;n puolet sen j&auml;senist&auml;, puheenjohtaja tai varapuheenjohtaja
+                mukaanluettuna on l&auml;sn&auml;. &auml;&auml;nestykset ratkaistaan
+                ehdottomalla &auml;&auml;ntenenemmist&ouml;ll&auml;. &auml;&auml;nten menness&auml; tasan ratkaisee puheenjohtajan &auml;&auml;ni, vaaleissa
+                kuitenkin arpa.<br><br>
+
+                7. Yhdistyksen nimen kirjoittaminen<br>
+                Yhdistyksen nimen kirjoittaa hallituksen puheenjohtaja, varapuheenjohtaja, sihteeri tai rahastonhoitaja,
+                kaksi yhdess&auml;.<br><br>
+
+                8. Tilikausi ja toiminnantarkastus / tilintarkastus<br>
+                Yhdistyksen tilikausi on kalenterivuosi. Tilinp&auml;&auml;t&ouml;s tarvittavine asiakirjoineen ja hallituksen
+                vuosikertomus on annettava toiminnantarkastajalle/
+                tilintarkastajalle viimeist&auml;&auml;n kuukautta ennen vuosikokousta. Toiminnantarkastajien/tilintarkastajien
+                tulee antaa kirjallinen lausuntonsa
+                viimeist&auml;&auml;n kaksi viikkoa ennen vuosikokousta hallitukselle.<br><br>
+
+                9. Yhdistyksen kokoukset<br>
+                Yhdistyksen vuosikokous pidet&auml;&auml;n vuosittain hallituksen m&auml;&auml;r&auml;&auml;m&auml;n&auml; p&auml;iv&auml;n&auml; tammi-toukokuussa.
+                Ylim&auml;&auml;r&auml;inen kokous pidet&auml;&auml;n, kun yhdistyksen
+                kokous niin p&auml;&auml;tt&auml;&auml; tai kun hallitus katsoo siihen olevan aihetta tai kun v&auml;hint&auml;&auml;n kymmenesosa (1/10)
+                yhdistyksen &auml;&auml;nioikeutetuista j&auml;senist&auml;
+                sit&auml; hallitukselta erityisesti ilmoitettua asiaa varten kirjallisesti vaatii. Kokous on pidett&auml;v&auml;
+                kolmenkymmenen vuorokauden kuluessa siit&auml;,
+                kun vaatimus sen pit&auml;misest&auml; on esitetty hallitukselle. Yhdistyksen kokouksissa on jokaisella j&auml;senell&auml;
+                yksi &auml;&auml;ni. Yhdistyksen kokouksen
+                p&auml;&auml;t&ouml;kseksi tulee, ellei s&auml;&auml;nn&ouml;iss&auml; ole toisin m&auml;&auml;r&auml;tty, se mielipide, jota on kannattanut yli puolet
+                annetuista &auml;&auml;nist&auml;. &auml;&auml;nten menness&auml;
+                tasan ratkaisee kokouksen puheenjohtajan &auml;&auml;ni, vaaleissa kuitenkin arpa.<br><br>
+
+                10. Yhdistyksen kokousten koollekutsuminen<br>
+                Hallituksen on kutsuttava yhdistyksen kokoukset koolle v&auml;hint&auml;&auml;n seits&auml;m&auml;n vuorokautta ennen j&auml;senille
+                postitetuilla kirjeill&auml;, yhdistyksen
+                kotipaikkakunnalla ilmestyv&auml;ss&auml; sanomalehdess&auml; tai s&auml;hk&ouml;postitse.<br><br>
+
+                11. Vuosikokous<br>
+                Yhdistyksen vuosikokouksessa k&auml;sitell&auml;&auml;n seuraavat asiat.:<br>
+                1. Kokouksen avaus.<br>
+                2. Valitaan kokouksen puheenjohtaja, sihteeri, kaksi p&ouml;yt&auml;kirjantarkastajaa ja tarvittaessa kaksi
+                &auml;&auml;ntenlaskijaa.<br>
+                3. Todetaan kokouksen laillisuus ja p&auml;&auml;t&ouml;svaltaisuus.<br>
+                4. Hyv&auml;ksyt&auml;&auml;n kokouksen ty&ouml;j&auml;rjestys.<br>
+                5. Esitet&auml;&auml;n tilinp&auml;&auml;t&ouml;s, vuosikertomus ja toiminnantarkastajien/tilintarkastajien lausunto<br>
+                6. P&auml;&auml;tet&auml;&auml;n tilinp&auml;&auml;t&ouml;ksen vahvistamisesta ja vastuuvapauden my&ouml;nt&auml;misest&auml; hallitukselle ja muille
+                vastuuvelvollisille.<br>
+                7. Vahvistetaan toimintasuunnitelma, tulo- ja menoarvio, sek&auml; liittymis- ja j&auml;senmaksun suuruus.<br>
+                8. Valitaan hallituksen puheenjohtaja ja muut j&auml;senet<br>
+                9. Valitaan yksi tai kaksi toiminnantarkastajaa ja varatoiminnantarkastajaa taikka yksi tai kaksi
+                tilintarkastajaa ja varatilintarkastajaa.<br>
+                10. K&auml;sitell&auml;&auml;n muut kokouskutsussa mainitut asiat.<br>
+                Mik&auml;li yhdistyksen j&auml;sen haluaa saada jonkin asian vuosikokouksen k&auml;sitelt&auml;v&auml;ksi, on
+                h&auml;nen ilmoitettava siit&auml; kirjallisesti hallitukselle niin hyviss&auml; ajoin, ett&auml; asia voidaan sis&auml;llytt&auml;&auml;
+                kokouskutsuun.<br>
+                11. S&auml;&auml;nt&ouml;jen muuttaminen ja yhdistyksen purkaminen<br>
+                P&auml;&auml;t&ouml;s s&auml;&auml;nt&ouml;jen muuttamisesta ja yhdistyksen purkamisesta on teht&auml;v&auml; yhdistyksen kokouksessa v&auml;hint&auml;&auml;n
+                kolmen nelj&auml;sosan (3/4) enemmist&ouml;ll&auml;
+                annetuista &auml;&auml;nist&auml;. Kokouskutsussa on mainittava s&auml;&auml;nt&ouml;jen muuttamisesta tai yhdistyksen purkamisesta.
+                Yhdistyksen purkautuessa k&auml;ytet&auml;&auml;n
+                yhdistyksen varat yhdistyksen tarkoituksen edist&auml;miseen purkamisesta p&auml;&auml;tt&auml;v&auml;n kokouksen m&auml;&auml;r&auml;&auml;m&auml;ll&auml;
+                tavalla. Yhdistyksen tullessa lakkautetuksi
+                k&auml;ytet&auml;&auml;n sen varat samaan tarkoitukseen. </p>
+        </div>
+    </div>
+</div>
+<script src="../scripts/liity_jaseneksi.js"></script>
 
 <div id="sponsori_ikkuna">
     <p id="voittamassa_mukana">Voittamassa mukana:</p>
