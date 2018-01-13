@@ -35,14 +35,14 @@
     <h2>J&Auml;SENHAKEMUS</h2>
     <p>Pakolliset kent&auml;t merkitty (*)</p>
     <form name="mail" method="POST"
-          action="https://voittajien-email-orja.herokuapp.com/jasenhakemus">
+          action="https://voittajien-email-orja.herokuapp.com/jasenhakemus" accept-charset="UTF-8">
         <input type="checkbox" required/> Olen lukenut ja hyv&auml;ksyn seuran
         <button onclick="openModal()" id="rules_btn">s&auml;&auml;nn&ouml;t</button>
         *<br><br>
         <input type="text" placeholder="Etunimi" name="firstname" required/> *<br>
         <input type="text" placeholder="Sukunimi" name="lastname" required/> *<br>
         <input type="text" placeholder="Osoite" name="address"/><br>
-        <input type="text" placeholder="Syntym&auml;aika" name="birthdate" required/> *<br>
+        <input type="text" placeholder="Syntym&auml;aika" name="birthday" required/> *<br>
         <input type="text" placeholder="S&auml;hk&ouml;posti" name="email" required/> *<br>
         <input type="text" placeholder="Puhelin" name="phone" required/> *<br>
         <input type="text" placeholder="Vanhemman puh." name="parentphone"/><br><br>
