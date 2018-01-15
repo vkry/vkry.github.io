@@ -6,6 +6,7 @@ p{
 	font-size: 0.8em;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	z-index: 1;
 }
 
 #otsikko_div{
@@ -19,8 +20,9 @@ p{
 #badminton_icon{
 	position: absolute;
 	left: 0;
-	bottom: 0px;
+	bottom: 0;
 	height:3em;
+	z-index:0;
 }
 
 #vk_logo{
