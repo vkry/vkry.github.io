@@ -77,6 +77,21 @@ div{
     border: none;
     border-left: double #3d1935;
     background-color: cornsilk;
+    text-align: center;
+}
+#formSendButton{
+    font-size: 1em;
+    font-style: italic;
+    font-weight: bold;
+    color: #6B0090;
+    background-color: white;
+    border-radius: 1em;
+    border: gray solid 1px;
+}
+#formSendButton:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #6B0090;
 }
 
 #sponsori_ikkuna{
@@ -177,6 +192,9 @@ div{
 }
 #rules_btn:hover{
     cursor: pointer;
+}
+input{
+    border: solid 1px #6B0090;
 }
 
 
