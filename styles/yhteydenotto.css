@@ -92,3 +92,28 @@ div{
 .logo_text{
     font-size: 1.3em;
 }
+#yhteydenottoLomake{
+    width: 76vw;
+}
+input{
+    border: solid 1px #6B0090;
+}
+textarea{
+    width: 50vw;
+    height: auto;
+}
+#formSendButton{
+    font-size: 1em;
+    font-style: italic;
+    font-weight: bold;
+    color: #6B0090;
+    background-color: white;
+
+    border-radius: 1em;
+    border: gray solid 1px;
+}
+#formSendButton:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #6B0090;
+}

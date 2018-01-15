@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="../styles/yhteydenotto.css">
     <title>Yhteydenotto</title>
 </head>
+<meta charset="UTF-8">
 
 <body>
 <div id="otsikko_div">
@@ -23,7 +24,8 @@
     <button class="topBarButton" onclick="window.location.href='uutiset.html'">UUTISET</button>
     <button class="topBarButton" id="yhteydenottoButton">YHTEYDENOTTO</button>
     <button class="topBarButton" onclick="window.location.href='tapahtumat.html'">KILPAILUT / TAPAHTUMAT</button>
-    <button class="topBarButton" onclick="window.location.href='yhteistyokumppanit.html'">YHTEISTY&Ouml;KUMPPANIT</button>
+    <button class="topBarButton" onclick="window.location.href='yhteistyokumppanit.html'">YHTEISTY&Ouml;KUMPPANIT
+    </button>
     <button class="topBarButton" onclick="window.location.href='racketlon.html'">RACKETLON</button>
     <button class="topBarButton" onclick="window.location.href='yhteystiedot.html'">YHTEYSTIEDOT</button>
     <button class="topBarButton" onclick="window.location.href='liity_jaseneksi.html'">LIITY J&Auml;SENEKSI</button>
@@ -45,4 +47,15 @@
     <a target="_blank" href="http://www.victor.fi"><img class="logo" src="/images/Victor_logo.jpg"></a><br>
     <a target="_blank" href="http://www.restless.fi" class="logo_text">www.restless.fi</a>
 </div>
+<h2>Ota Yhteyttä</h2>
+<form name="mail" method="POST"
+      action="http://localhost:8080/yhteydenotto" accept-charset="UTF-8">
+
+    <input type="text" placeholder="nimi" name="name" required/><br>
+    <input type="text" placeholder="S&auml;hk&ouml;posti" name="email" required/><br>
+    <textarea id='contactContent' rows="10" cols="40" placeholder="Ota yhteyttä vapaasti" name="details"></textarea><br>
+    <input id="formSendButton" type="submit" name="submit"
+           value="Lähetä"/>
+    &nbsp;
+</form>
 </body>
