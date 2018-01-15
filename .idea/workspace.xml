@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9df82816-5533-424b-bc2d-16682cc63216" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/tapahtumat.html" afterPath="$PROJECT_DIR$/layouts/tapahtumat.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/yhteystiedot.css" afterPath="$PROJECT_DIR$/styles/yhteystiedot.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -344,7 +344,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tapahtumat.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tapahtumat.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layouts/tapahtumat.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="644">
@@ -398,11 +398,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="yhteystiedot.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="yhteystiedot.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles/yhteystiedot.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="671">
-              <caret line="95" column="16" lean-forward="false" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="16" />
+            <state relative-caret-position="689">
+              <caret line="96" column="4" lean-forward="false" selection-start-line="96" selection-start-column="4" selection-end-line="96" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -426,9 +426,9 @@
       <find>uutiset</find>
       <find>ä</find>
       <find>ö</find>
-      <find>form</find>
       <find>jas</find>
       <find>button</find>
+      <find>form</find>
     </findStrings>
     <replaceStrings>
       <replace>&amp;auml;</replace>
@@ -458,11 +458,11 @@
         <option value="$PROJECT_DIR$/layouts/vkry.html" />
         <option value="$PROJECT_DIR$/layouts/yhteistyokumppanit.html" />
         <option value="$PROJECT_DIR$/layouts/yhteydenotto.html" />
-        <option value="$PROJECT_DIR$/styles/yhteystiedot.css" />
         <option value="$PROJECT_DIR$/layouts/yhteystiedot.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/styles/liity_jaseneksi.css" />
         <option value="$PROJECT_DIR$/layouts/tapahtumat.html" />
+        <option value="$PROJECT_DIR$/styles/yhteystiedot.css" />
       </list>
     </option>
   </component>
@@ -578,12 +578,12 @@
       <workItem from="1515582920669" duration="10626000" />
       <workItem from="1515756118478" duration="313000" />
       <workItem from="1515829587816" duration="4765000" />
-      <workItem from="1516011959828" duration="4725000" />
+      <workItem from="1516011959828" duration="4750000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83144000" />
+    <option name="totallyTimeSpent" value="83169000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="156" y="-4" width="1853" height="1092" extended-state="6" />
@@ -1111,14 +1111,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/yhteystiedot.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="95" column="16" lean-forward="false" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -1145,14 +1137,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
           <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/yhteystiedot.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="54" column="12" lean-forward="false" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -1465,6 +1449,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="644">
           <caret line="116" column="19" lean-forward="false" selection-start-line="116" selection-start-column="19" selection-end-line="116" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/yhteystiedot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="54" column="12" lean-forward="false" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/yhteystiedot.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="689">
+          <caret line="96" column="4" lean-forward="false" selection-start-line="96" selection-start-column="4" selection-end-line="96" selection-end-column="4" />
           <folding />
         </state>
       </provider>
