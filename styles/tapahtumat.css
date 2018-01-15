@@ -92,3 +92,24 @@ div{
 .logo_text{
     font-size: 1.3em;
 }
+
+form{
+    text-align: center;
+    font-size: larger;
+}
+
+#formSendButton{
+    font-style: italic;
+    font-weight: bold;
+    color: #6B0090;
+    background-color: white;
+
+    border-radius: 1em;
+    border: gray solid 1px;
+
+}
+#formSendButton:hover{
+    background-color: #6B0090;
+    color: white;
+    cursor: pointer;
+}
