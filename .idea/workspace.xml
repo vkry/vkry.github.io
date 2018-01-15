@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9df82816-5533-424b-bc2d-16682cc63216" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/liity_jaseneksi.html" afterPath="$PROJECT_DIR$/layouts/liity_jaseneksi.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/racketlon.html" afterPath="$PROJECT_DIR$/layouts/racketlon.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/tapahtumat.html" afterPath="$PROJECT_DIR$/layouts/tapahtumat.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/uutiset.html" afterPath="$PROJECT_DIR$/layouts/uutiset.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/valmennus.html" afterPath="$PROJECT_DIR$/layouts/valmennus.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/vkry.html" afterPath="$PROJECT_DIR$/layouts/vkry.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/yhteistyokumppanit.html" afterPath="$PROJECT_DIR$/layouts/yhteistyokumppanit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/yhteydenotto.html" afterPath="$PROJECT_DIR$/layouts/yhteydenotto.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/yhteystiedot.html" afterPath="$PROJECT_DIR$/layouts/yhteystiedot.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/liity_jaseneksi.css" afterPath="$PROJECT_DIR$/styles/liity_jaseneksi.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/racketlon.css" afterPath="$PROJECT_DIR$/styles/racketlon.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/tapahtumat.css" afterPath="$PROJECT_DIR$/styles/tapahtumat.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/uutiset.css" afterPath="$PROJECT_DIR$/styles/uutiset.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/valmennus.css" afterPath="$PROJECT_DIR$/styles/valmennus.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/vkry.css" afterPath="$PROJECT_DIR$/styles/vkry.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/yhteistyokumppanit.css" afterPath="$PROJECT_DIR$/styles/yhteistyokumppanit.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/yhteydenotto.css" afterPath="$PROJECT_DIR$/styles/yhteydenotto.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/yhteystiedot.css" afterPath="$PROJECT_DIR$/styles/yhteystiedot.css" />
-    </list>
+    <list default="true" id="9df82816-5533-424b-bc2d-16682cc63216" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -294,12 +275,12 @@
       <workItem from="1515756118478" duration="313000" />
       <workItem from="1515829587816" duration="4765000" />
       <workItem from="1516011959828" duration="6277000" />
-      <workItem from="1516018251496" duration="2808000" />
+      <workItem from="1516018251496" duration="3412000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87504000" />
+    <option name="totallyTimeSpent" value="88108000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="68" y="-11" width="1853" height="1092" extended-state="6" />
