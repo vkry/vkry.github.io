@@ -1,5 +1,5 @@
 body{
-    background: cornsilk;
+    background: white;
 }
 
 p{
@@ -96,12 +96,17 @@ div{
 #yhteydenottoLomake{
     width: 76vw;
 }
+form{
+    padding-left: 1em;
+}
 input{
     border: solid 1px #6B0090;
 }
-textarea{
+#contactContent{
+    padding-top: 5px;
     width: 50vw;
     height: auto;
+    border: solid 1px #6B0090;
 }
 #formSendButton{
     font-size: 1em;

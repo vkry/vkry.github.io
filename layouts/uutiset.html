@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="../styles/uutiset.css">
     <title>The News</title>
 </head>
+ <meta charset="UTF-8"/>
 
 <body>
 <div id="otsikko_div">
@@ -34,7 +35,7 @@
 <div id="uutisikkuna">
     <h1>Uutisia</h1>
   <p class="uutinen"><u>Ohhoh!!</u><br>
-   Mailapelikisan purtavasta vastaa Hans&Välimäki 19.1. Kulosaaressa...
+   Mailapelikisan purtavasta vastaa <button id="hansvalimaki_button">Hans&Välimäki</button> 19.1. Kulosaaressa...
    <br><br>
      
   
@@ -74,7 +75,7 @@ Byckling Pauli      <br>
 Savolainen Anton     
       <br><br>   
       
- <a target="_blank" href="www.tournamentsoftware.com/sport/events.aspx?id=C31C99E6-05CC-4714-89AA-E3D88D8A33EE/">Kaavio A-luokan peleihin...</a>
+ <a target="_blank" href="http://www.tournamentsoftware.com/sport/events.aspx?id=C31C99E6-05CC-4714-89AA-E3D88D8A33EE/">Kaavio A-luokan peleihin...</a>
      
      <br><br>
    Turnauksessa pelataan kovatasoinen B-luokka, BobMassage, jonka peleistä osa alkaa myös perjantaina. Luokan ykkössijoitettuna on Pekka Tennilä Tampereelta.
@@ -85,7 +86,7 @@ Savolainen Anton
       Turnauksen C-luokassa, Breadstick, pelataan jopa yli 16 pelaajan cup-kaavio, jonka ykkössijoitettuna on hallin oma toivo Sara Tuomala. <br> 
       Turnauksen C-luokassa pelataan myös sijoitusotteluita vaikka häviäisi ensimmäisen kierroksen ottelun. Osa kaavion peleistä pelataan jo perjantaina. 
       Kakkossijoitettuna kaaviossa on kotihallin toinen toivo Robert Avellan. <br><br>
-      <a target="_blank" href="www.tournamentsoftware.com/sport/draw.aspx?id=C31C99E6-05CC-4714-89AA-E3D88D8A33EE&draw=5/">Kaavio C -luokan peleihin...</a>
+      <a target="_blank" href="http://www.tournamentsoftware.com/sport/draw.aspx?id=C31C99E6-05CC-4714-89AA-E3D88D8A33EE&draw=5/">Kaavio C -luokan peleihin...</a>
           <br><br>
       Kisoissa pelataan myös juniorisarja lauantaina. FlowDrinks -sarjassa on useita tulevaisuuden tähtipelajia. 
       <br>
@@ -308,4 +309,18 @@ Turnauksessa on mahdollista saada pelaajille ShuttleService Kulosaaren metroasem
     <a target="_blank" href="http://www.victor.fi"><img class="logo" src="/images/Victor_logo.jpg"></a><br>
     <a target="_blank" href="http://www.restless.fi" class="logo_text">www.restless.fi</a>
 </div>
+
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span><br>
+        <img id="hansvalimaki_img" src="../images/hans_ja_valimaki.jpg"/>
+    </div>
+
+</div>
+<script src="../scripts/uutiset.js"></script>
 </body>

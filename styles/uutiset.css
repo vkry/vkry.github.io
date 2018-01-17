@@ -1,5 +1,5 @@
 body{
-    background: cornsilk;
+    background: white;
 }
 
 p{
@@ -77,7 +77,7 @@ div{
     width: 65vw;
     border: none;
     border-left: double #3d1935;
-    background-color: cornsilk;
+    background-color: whitesmoke;
 }
 
 .uutinen{
@@ -115,4 +115,58 @@ div{
 
 .kisan_spons_logo{
     height: 3em;
+}
+
+#hansvalimaki_button{
+    font-size: 1em;
+    color: #6B0090;
+    border: none;
+    padding: 0px;
+    background: none;
+}
+
+#hansvalimaki_button:hover{
+    color: black;
+    cursor: pointer;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: transparent;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: none;
+    width: 80%; /* Could be more or less, depending on screen size */
+
+}
+#hansvalimaki_img{
+    width: inherit;
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }

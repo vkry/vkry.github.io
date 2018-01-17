@@ -1,5 +1,5 @@
 body{
-    background-color: cornsilk;
+    background-color: white;
 }
 
 p{
@@ -77,9 +77,13 @@ div{
     width: 65vw;
     border: none;
     border-left: double #3d1935;
-    background-color: cornsilk;
+    background-color: whitesmoke;
     text-align: center;
 }
+#other{
+    border: solid 1px #6B0090;
+}
+
 #formSendButton{
     font-size: 1em;
     font-style: italic;

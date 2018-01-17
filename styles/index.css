@@ -1,5 +1,5 @@
 body{
-	background: cornsilk;
+	background: white;
 }
 
 p{
@@ -78,7 +78,7 @@ div{
 	width: 65vw;
 	border: none;
 	border-left: double #3d1935;
-	background-color: cornsilk;
+	background-color: whitesmoke;
 }
 
 .uutinen{
