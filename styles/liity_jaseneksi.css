@@ -160,7 +160,7 @@ div{
 /* Modal Body */
 .modal-body {
     padding: 2px 16px;
-    height: 25em;
+    height: 50vh;
     overflow-y: scroll;
 }
 
