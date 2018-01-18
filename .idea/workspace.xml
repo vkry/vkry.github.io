@@ -79,8 +79,8 @@
       <file leaf-file-name="uutiset.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/layouts/uutiset.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="80" column="36" lean-forward="false" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
+            <state relative-caret-position="301">
+              <caret line="85" column="122" lean-forward="false" selection-start-line="85" selection-start-column="122" selection-end-line="85" selection-end-column="122" />
               <folding />
             </state>
           </provider>
@@ -290,12 +290,12 @@
       <workItem from="1516028266765" duration="141000" />
       <workItem from="1516035645820" duration="1415000" />
       <workItem from="1516228699100" duration="4853000" />
-      <workItem from="1516270225886" duration="475000" />
+      <workItem from="1516270225886" duration="1142000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95003000" />
+    <option name="totallyTimeSpent" value="95670000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="156" y="-4" width="1299" height="780" extended-state="6" />
@@ -695,8 +695,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/layouts/uutiset.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="80" column="36" lean-forward="false" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
+        <state relative-caret-position="301">
+          <caret line="85" column="122" lean-forward="false" selection-start-line="85" selection-start-column="122" selection-end-line="85" selection-end-column="122" />
           <folding />
         </state>
       </provider>
