@@ -78,7 +78,7 @@ div{
 .logo{
     display:block;
     margin:auto;
-    width: auto;
+    max-width: 24vw;
     height:4em;
     margin-bottom: 1em;
 }

@@ -87,7 +87,7 @@ div{
 .logo{
     display:block;
     margin:auto;
-    width: auto;
+    max-width: 24vw;
     height:4em;
 }
 .logo_text{
