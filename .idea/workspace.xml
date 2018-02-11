@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9df82816-5533-424b-bc2d-16682cc63216" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/tapahtumat.html" afterPath="$PROJECT_DIR$/layouts/tapahtumat.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/yhteystiedot.html" afterPath="$PROJECT_DIR$/layouts/yhteystiedot.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/liity_jaseneksi.html" afterPath="$PROJECT_DIR$/layouts/liity_jaseneksi.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/liity_jaseneksi.css" afterPath="$PROJECT_DIR$/styles/liity_jaseneksi.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,11 +18,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="liity_jaseneksi.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="liity_jaseneksi.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles/liity_jaseneksi.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2106">
-              <caret line="117" column="20" lean-forward="false" selection-start-line="117" selection-start-column="20" selection-end-line="117" selection-end-column="20" />
+            <state relative-caret-position="684">
+              <caret line="71" column="21" lean-forward="false" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="liity_jaseneksi.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/layouts/liity_jaseneksi.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="34" column="4" lean-forward="false" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -62,7 +71,7 @@
       <file leaf-file-name="yhteystiedot.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/yhteystiedot.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="887">
+            <state relative-caret-position="1602">
               <caret line="89" column="20" lean-forward="false" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
               <folding />
             </state>
@@ -79,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tapahtumat.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tapahtumat.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layouts/tapahtumat.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="761">
-              <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+            <state relative-caret-position="936">
+              <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -92,7 +101,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
+            <state relative-caret-position="720">
               <caret line="40" column="32" lean-forward="false" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
               <folding />
             </state>
@@ -104,16 +113,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1602">
               <caret line="89" column="20" lean-forward="false" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="uutiset.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styles/uutiset.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1944">
-              <caret line="108" column="20" lean-forward="false" selection-start-line="108" selection-start-column="20" selection-end-line="108" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -162,11 +161,9 @@
         <option value="$PROJECT_DIR$/scripts/uutiset.js" />
         <option value="$PROJECT_DIR$/layouts/uutiset.html" />
         <option value="$PROJECT_DIR$/layouts/racketlon.html" />
-        <option value="$PROJECT_DIR$/layouts/liity_jaseneksi.html" />
         <option value="$PROJECT_DIR$/styles/index.css" />
         <option value="$PROJECT_DIR$/styles/tapahtumat.css" />
         <option value="$PROJECT_DIR$/styles/racketlon.css" />
-        <option value="$PROJECT_DIR$/styles/liity_jaseneksi.css" />
         <option value="$PROJECT_DIR$/styles/uutiset.css" />
         <option value="$PROJECT_DIR$/styles/valmennus.css" />
         <option value="$PROJECT_DIR$/styles/vkry.css" />
@@ -176,6 +173,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/layouts/yhteystiedot.html" />
         <option value="$PROJECT_DIR$/layouts/tapahtumat.html" />
+        <option value="$PROJECT_DIR$/layouts/liity_jaseneksi.html" />
+        <option value="$PROJECT_DIR$/styles/liity_jaseneksi.css" />
       </list>
     </option>
   </component>
@@ -232,8 +231,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -299,14 +298,15 @@
       <workItem from="1516270225886" duration="2971000" />
       <workItem from="1516319873888" duration="79000" />
       <workItem from="1517006672202" duration="539000" />
+      <workItem from="1518338916804" duration="1436000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98117000" />
+    <option name="totallyTimeSpent" value="99553000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="156" y="-4" width="1853" height="1092" extended-state="6" />
+    <frame x="68" y="-11" width="1853" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24581307" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -599,13 +599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/liity_jaseneksi.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="186" column="4" lean-forward="false" selection-start-line="186" selection-start-column="4" selection-end-line="187" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
@@ -617,7 +610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1602">
           <caret line="89" column="20" lean-forward="false" selection-start-line="89" selection-start-column="4" selection-end-line="89" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -625,15 +617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1872">
           <caret line="104" column="20" lean-forward="false" selection-start-line="104" selection-start-column="20" selection-end-line="104" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/liity_jaseneksi.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2106">
-          <caret line="117" column="20" lean-forward="false" selection-start-line="117" selection-start-column="20" selection-end-line="117" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -679,7 +662,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
+        <state relative-caret-position="720">
           <caret line="40" column="32" lean-forward="false" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
           <folding />
         </state>
@@ -687,8 +670,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/yhteystiedot.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="887">
+        <state relative-caret-position="1602">
           <caret line="89" column="20" lean-forward="false" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/tapahtumat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -701,10 +692,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/tapahtumat.html">
+    <entry file="file://$PROJECT_DIR$/layouts/liity_jaseneksi.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="761">
-          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        <state relative-caret-position="612">
+          <caret line="34" column="4" lean-forward="false" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/liity_jaseneksi.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="71" column="21" lean-forward="false" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
           <folding />
         </state>
       </provider>

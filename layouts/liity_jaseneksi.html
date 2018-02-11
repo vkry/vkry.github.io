@@ -32,20 +32,39 @@
 </div>
 
 <div id="jasenyysLomake">
+    <img src="../images/vk_logo.png" id="header_image">
     <h2>J&Auml;SENHAKEMUS</h2>
     <p>Pakolliset kent&auml;t merkitty (*)</p>
     <form name="mail" method="POST"
           action="https://voittajien-email-orja.herokuapp.com/jasenhakemus" accept-charset="UTF-8">
         <input type="checkbox" required/> Olen lukenut ja hyv&auml;ksyn seuran
-        <button onclick="openModal()" id="rules_btn">s&auml;&auml;nn&ouml;t</button>
-        *<br><br>
-        <input type="text" placeholder="Etunimi" name="firstname" required/> *<br>
-        <input type="text" placeholder="Sukunimi" name="lastname" required/> *<br>
-        <input type="text" placeholder="Osoite" name="address"/><br>
-        <input type="text" placeholder="Syntym&auml;aika" name="birthday" required/> *<br>
-        <input type="text" placeholder="S&auml;hk&ouml;posti" name="email" required/> *<br>
-        <input type="text" placeholder="Puhelin" name="phone" required/> *<br>
-        <input type="text" placeholder="Vanhemman puh." name="parentphone"/><br><br>
+        <button onclick="openModal()" id="rules_btn">s&auml;&auml;nn&ouml;t</button>*
+        <br><br>
+        <table align="center">
+            <tr>
+                <td><input type="text" placeholder="Etunimi" name="firstname" required/></td><td>*</td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="Sukunimi" name="lastname" required/></td><td>*</td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="Osoite" name="address"/></td><td></td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="Syntym&auml;aika" name="birthday" required/></td><td>*</td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="S&auml;hk&ouml;posti" name="email" required/></td><td>*</td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="Puhelin" name="phone" required/></td><td>*</td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="Vanhemman puh." name="parentphone"/></td><td></td>
+            </tr>
+        </table>
+
+        <br><br>
         <textarea id='other' rows="10" cols="40" placeholder="Muuta" name="details"></textarea><br>
         <input id="formSendButton" type="submit" name="submit"
                value="Liity"/>
