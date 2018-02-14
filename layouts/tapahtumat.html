@@ -50,6 +50,31 @@
                                                                                    src="/images/volvo_logo.png"></a>
 </div>
 
-
+<div>
+    <h1>LöScaba Spring #26</h1>
+    <h3>Sarjat : Kilpa, Harraste, Hupi, Nelinpeli</h3>
+    <div class="ilmoittautumisLomake">
+        <form name="mail" method="POST"
+              action="https://voittajien-email-orja.herokuapp.com/loscabaIlmo" accept-charset="UTF-8"><br>
+            <p1>Ilmoittautumislomake:</p1>
+            <br>
+            <p1>Pakolliset kent&auml;t merkitty (*)</p1>
+            <br><br>
+            <input type="text" placeholder="Etunimi" name="firstname" required/> *<br>
+            <input type="text" placeholder="Sukunimi" name="lastname" required/> *<br>
+            <input type="text" placeholder="Osoite" name="address"/>&nbsp;&nbsp;&nbsp;<br>
+            <input type="text" placeholder="Syntym&auml;aika" name="birthday" required/> *<br>
+            <input type="text" placeholder="S&auml;hk&ouml;posti" name="email" required/> *<br>
+            <input type="text" placeholder="Puhelin" name="phone" required/> *<br>
+            <input type="text" placeholder="Luokka" name="category" required/> *<br><br>
+            <textarea id='details' rows="10" cols="40"
+                      placeholder="Muuta mainitsemisen arvoista..."
+                      name="other" required></textarea> *<br>
+            <input id="formSendButton" type="submit" name="submit"
+                   value="Ilmoittaudu!"/>
+            &nbsp;
+        </form><br>
+        </div>
+</div>
 
 </body>
