@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9df82816-5533-424b-bc2d-16682cc63216" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/tapahtumat.html" afterPath="$PROJECT_DIR$/layouts/tapahtumat.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/index.css" afterPath="$PROJECT_DIR$/styles/index.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,16 +33,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
               <caret line="21" column="79" lean-forward="false" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="79" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vkry.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styles/vkry.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1602">
-              <caret line="89" column="20" lean-forward="false" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -76,14 +68,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tapahtumat.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tapahtumat.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layouts/tapahtumat.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="635">
+            <state relative-caret-position="637">
               <caret line="67" column="58" lean-forward="false" selection-start-line="67" selection-start-column="58" selection-end-line="67" selection-end-column="58" />
               <folding>
                 <element signature="e#4213#4219#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/styles/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="47" column="17" lean-forward="false" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -103,9 +105,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="40" column="32" lean-forward="false" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
-              <folding />
+            <state relative-caret-position="306">
+              <caret line="17" column="65" lean-forward="false" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#p#1;n#div#1;n#body#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,6 +146,7 @@
       <find>vic</find>
       <find>&lt;a</find>
       <find>-</find>
+      <find>cont</find>
     </findStrings>
     <replaceStrings>
       <replace>&amp;auml;</replace>
@@ -163,7 +168,6 @@
         <option value="$PROJECT_DIR$/scripts/uutiset.js" />
         <option value="$PROJECT_DIR$/layouts/uutiset.html" />
         <option value="$PROJECT_DIR$/layouts/racketlon.html" />
-        <option value="$PROJECT_DIR$/styles/index.css" />
         <option value="$PROJECT_DIR$/styles/tapahtumat.css" />
         <option value="$PROJECT_DIR$/styles/racketlon.css" />
         <option value="$PROJECT_DIR$/styles/uutiset.css" />
@@ -172,12 +176,13 @@
         <option value="$PROJECT_DIR$/styles/yhteistyokumppanit.css" />
         <option value="$PROJECT_DIR$/styles/yhteydenotto.css" />
         <option value="$PROJECT_DIR$/styles/yhteystiedot.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/layouts/yhteystiedot.html" />
         <option value="$PROJECT_DIR$/styles/liity_jaseneksi.css" />
         <option value="$PROJECT_DIR$/layouts/liity_jaseneksi.html" />
         <option value="$PROJECT_DIR$/layouts/yhteydenotto.html" />
         <option value="$PROJECT_DIR$/layouts/tapahtumat.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/styles/index.css" />
       </list>
     </option>
   </component>
@@ -208,6 +213,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -234,8 +241,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -306,11 +311,12 @@
       <workItem from="1518374766778" duration="622000" />
       <workItem from="1518615056912" duration="1564000" />
       <workItem from="1518636821890" duration="237000" />
+      <workItem from="1518683815170" duration="679000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103241000" />
+    <option name="totallyTimeSpent" value="103920000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="68" y="-11" width="1853" height="1092" extended-state="6" />
@@ -599,13 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="104" column="5" lean-forward="false" selection-start-line="104" selection-start-column="5" selection-end-line="107" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/tapahtumat.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1602">
@@ -646,14 +645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1440">
           <caret line="80" column="20" lean-forward="false" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="40" column="32" lean-forward="false" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -710,11 +701,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/layouts/tapahtumat.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="635">
+        <state relative-caret-position="637">
           <caret line="67" column="58" lean-forward="false" selection-start-line="67" selection-start-column="58" selection-end-line="67" selection-end-column="58" />
           <folding>
             <element signature="e#4213#4219#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="65" lean-forward="false" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#p#1;n#div#1;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="47" column="17" lean-forward="false" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>

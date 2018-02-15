@@ -40,10 +40,13 @@ div{
 }
 
 #contact_div{
-	color: white;
+	color: #2e0075;
 	background-color: #6B0090;/*#b794af;*/
+	border:none;
 	font-size: 1.2em;
 	font-weight: 400;
+	width: 101.23%;
+	margin-left: -0.5em;
 }
 
 #topBarDiv{
